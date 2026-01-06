@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../../css/style.css">
 
     <style>
         :root {
@@ -130,6 +130,16 @@
             color: var(--secondary-blue);
         }
 
+        .card-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .card-link:hover .card {
+            transform: translateY(-10px);
+            box-shadow: 0 16px 35px rgba(0,0,0,0.12);
+        }
         /* ---------- Programs Section ---------- */
         .programs {
             background-color: var(--light-gray);
@@ -171,11 +181,11 @@
 <header>
     <h1>OpenSource Compass</h1>
     <nav>
-        <a href="index.html">Home</a>
-        <a href="guides.html">Guides</a>
-        <a href="#">Programs</a>
-        <a href="#">Resources</a>
-        <a href="#">Contribute</a>
+        <a href="../index.html">Home</a>
+        <a href="../guides.html">Guides</a>
+        <a href="../programs.html">Programs</a>
+        <a href="../Resources.html">Resources</a>
+        <a href="../Contribute.html">Contribute</a>
     </nav>
 </header>
 
@@ -191,13 +201,56 @@
 </div>
 
 <iframe 
-  src="guides_pdf/GSSOC.pdf" 
+  src="../../library/guides_pdf/GSSOC.pdf" 
   width="100%" 
   height="600px" 
   style="border:1px solid #ccc;"
   title="Embedded PDF">
 </iframe>
 
+        <div class="card">
+            <h4>Community Driven</h4>
+            <p>Built by contributors, improved by contributors.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Programs Section -->
+<section class="programs">
+    <h3>Open Source Programs</h3>
+    <p>
+        Explore ongoing and upcoming open-source programs with timelines,
+        prerequisites, and official resources.
+    </p>
+
+    <div class="card-container">
+        <a href="https://socialwinterofcode.com" class="card-link" target="_blank" rel="noopener noreferrer">
+            <div class="card">
+             <h4>Social Winter of Code</h4>
+                <p>Beginner-focused winter open-source program.</p>
+                <span class="badge">Upcoming</span>
+            </div>
+        </a>
+        
+        <a href="https://gssoc.girlscript.tech" class="card-link" target="_blank" rel="noopener noreferrer">
+            <div class="card">
+                <h4>GirlScript Summer of Code</h4>
+                <p>Large-scale open-source program for students.</p>
+                <span class="badge">Annual</span>
+            </div>
+        </a>
+
+        <a href="https://summerofcode.withgoogle.com" class="card-link" target="_blank" rel="noopener noreferrer">
+            <div class="card">
+                <h4>Google Summer of Code</h4>
+                <p>Global program for advanced contributors.</p>
+                <span class="badge">Advanced</span>
+            </div>
+        </a>
+    </div>
+</section>
+
+<!-- Footer -->
 <footer>
     <p>© 2025 OpenSource Compass • Built for the Open Source Community</p>
 </footer>
