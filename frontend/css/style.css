@@ -841,6 +841,11 @@ footer.site-footer::after {
   animation: footerGlow 9s ease-in-out infinite;
 }
 
+footer.site-footer ul {
+  list-style: none;
+  margin-left: 5px;
+}
+
 @keyframes footerGlow {
   0%,
   100% {
@@ -1139,9 +1144,9 @@ body.dark-mode .newsletter-section input {
 #scrollTopBtn {
   position: fixed;
   bottom: 20px;
-  right: 20px;
-  width: 70px;
-  height: 70px;
+  right: 13px;
+  width: 65px;
+  height: 65px;
   background: linear-gradient(135deg, var(--primary-gold) 60%, var(--secondary-gold) 100%);
   border-radius: 50%;
   box-shadow: 0 4px 24px rgba(0,0,0,0.25);
