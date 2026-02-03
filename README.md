@@ -113,11 +113,11 @@ OPENSOURCE-COMPASS/
 
 ---
 ## 🖼️ Screenshots
-[View Home Page](frontend\assets\templates\Home.png)
+![View Home Page](frontend\assets\templates\Home.png)
 
-[View guide Page](frontend\assets\templates\guides.png)
+![View guide Page](frontend\assets\templates\guides.png)
 
-[View Programs Page](frontend\assets\templates\Programs.png)
+![View Programs Page](frontend\assets\templates\Programs.png)
 ## 👥 Team — SWOC’26
 
 ### 🛠 Project Admin
